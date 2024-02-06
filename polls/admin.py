@@ -20,3 +20,8 @@ class QuestionAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Question, QuestionAdmin)
+# In an actual project, you would probably use the 
+# django.contrib.admin.AdminSite.site_header attribute to more easily make this 
+# particular customization. Like below:
+
+# admin.AdminSite.site_header = "Title here"
